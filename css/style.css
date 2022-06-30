@@ -1,3 +1,317 @@
 body {
-
+  font-family:'Roboto', sans-serif;
 }
+
+.promo {
+  background-color:#F4F9E2;
+}
+
+.promo__title {
+  color: #22356F;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 53px;
+  text-transform: uppercase;
+  letter-spacing: -0.035em;
+}
+
+.promo__paragraph {
+  color: #22356F;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 42pxS;
+}
+/* не знал как правильно оформить, это альтернативный вариант
+.promo__block {
+  width: 150px;
+  height: 50px;
+  background-color: #F9B640;
+}*/
+
+.promo__who-am-i {
+  color: #FFFFFF;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 23px;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  text-decoration: none;
+  background-color: #F9B640;
+}
+
+.promo__what-do-i-do {
+  color: #FAB63E;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 23px;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  text-decoration: none;
+}
+
+.why-thrive {
+  background-color: #62D0DF;
+}
+
+.why-thrive__title {
+  color: #FFFFFF;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 27px;
+  letter-spacing: -0.006em;
+}
+
+.why-thrive__improve-span {
+  color: #FFFFFF;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 35px;
+}
+
+.why-thrive__licensed-therapists-span {
+  color: #FFFFFF;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 29px;
+}
+
+.help {
+  background-color: #FFFFFF;
+}
+
+.help__about-us {
+  color: #22356F;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 23px;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+}
+
+.help__paragraph {
+  color: #22356F;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 34px;
+  letter-spacing: 0.005em;
+}
+
+.we-can-help-you-with__title {
+  color: rgba(34, 53, 111, 0.5);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+}
+
+.we-can-help-you-with__list a {
+  color: #FFFFFF;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 34px;
+  letter-spacing: -0.006em;
+  text-decoration: none;
+  display: block;
+}
+
+.we-can-help-you-with__weight-lifting {
+  background-color: #FFE2DE;
+}
+
+.we-can-help-you-with__running-and-spinning {
+  background-color: #C4E769;
+}
+
+.we-can-help-you-with__pumping-iron {
+  background-color: #62D0DF;
+}
+
+.we-can-help-you-with__pumping-iron2 {
+  background-color: #0052C1;
+}
+
+.services__list a {
+  color: #FFFFFF;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 34px;
+  letter-spacing: -0.006em;
+  text-decoration: none;
+  display: block;
+}
+
+.services__physical-health {
+  background-color: #22356F;
+}
+
+.services__mental-health {
+  background-color: #0052C1;
+}
+
+.services__nutrition {
+  /*картинка*/
+}
+
+.services__gymnastics {
+  background-color: #62D0DF;
+}
+
+.services__crossfit {
+  background-color: #DEE1FF;
+}
+
+.services__aerobics {
+  background-color: #8F00FF;
+}
+
+.results__list h3 {
+  color: #22356F;
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 33px;
+  letter-spacing: -0.03em;
+}
+
+.results__list p {
+  color: rgba(34, 53, 111, 0.5);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 25px;
+  letter-spacing: -0.03em;
+}
+
+.you-should-also-know__title {
+  color: #22356F;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 12px;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+.you-should-also-know__paragraph {
+  color: #22356F;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 53px;
+  letter-spacing: -0.01em;
+}
+
+.you-should-also-know__span {
+  color: #6CD3E1;
+}
+
+.you-should-also-know__link {
+  color: #FAB63E;;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 23px;
+  letter-spacing: 0.1em;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.contact-us {
+  background-color: #22356F;
+}
+
+.contact-us__title {
+  color: #FFFFFF;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 12px;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+.contact-us__ready-set-smile {
+  color: #FFFFFF;
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 94px;
+  letter-spacing: -0.01em;
+}
+
+.contact-us__free-online-assessment {
+  color: #FFFFFF;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 53px;
+  letter-spacing: -0.005em;
+}
+
+.contact-us__link {
+  color: #62D0DF;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 23px;
+  letter-spacing: 0.1em;
+  text-decoration: none;
+}
+
+.contacts__list h3 {
+  color: #22356F;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 11px;
+  letter-spacing: -0.006em;
+  text-transform: uppercase;
+}
+
+.contacts__list p {
+  color: rgba(34, 53, 111, 0.5);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 23px;
+  letter-spacing: -0.006em;
+}
+
+.contacts__list span {
+  color: #006DFF;
+}
+
+footer {
+  background-color: #62D0DF;
+}
+
+.footer__paragraph {
+  color: #FFFFFF;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 11px;
+  letter-spacing: -0.006em;
+}
+
+.header__nav a {
+  color: #22356F;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  text-decoration: none;
+}
+
+.header__nav .header__current {
+  font-weight: 500;
+}
+
+.header__nav li {
+  list-style-type: none;
+}
+
+.header__contact-us {
+  color: #FFFFFF;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  text-decoration: none;
+  background-color: #62D0DF;
+  border-radius: 50px;
+}
+/*не знал как правильно оформить, это альтернативный вариант
+.header__oval {
+  background-color: #62D0DF;
+  width: 150px;
+  height: 50px;
+  border-radius: 50px;
+}*/
