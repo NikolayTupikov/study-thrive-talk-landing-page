@@ -3,152 +3,195 @@
 <head>
   <meta charset="UTF-8">
   <title>ThriveTalk Landing Page</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
+
+
   <header class="header">
-    <img src="img/logo-thrivetalk.png" alt="логотип Thrivetalk">
-    <nav class="header__nav">
-      <ul>
-        <li>
-          <a class="header__current" href="#">Home</a>
-        </li>
-        <li>
-          <a href="#">About</a>
-        </li>
-        <li>
-          <a href="#">Services</a>
-        </li>
-        <li>
-          <a href="#">Blog</a>
-        </li>
-      </ul>
-    </nav>
-    <!--<div class="header__oval">-->
-      <a class="header__contact-us" href="#">Contact us</a>
-    <!--</div>-->
+    <div class="container header__wrap">
+      <img class="header__logo" src="img/logo-thrivetalk.png" alt="логотип Thrivetalk">
+      <nav class="header__nav">
+        <ul class="header__list">
+          <li>
+            <a class="header__current" href="#">Home</a>
+          </li>
+          <li>
+            <a href="#">About</a>
+          </li>
+          <li>
+            <a href="#">Services</a>
+          </li>
+          <li>
+            <a href="#">Blog</a>
+          </li>
+        </ul>
+      </nav>
+      <!--<div class="header__oval">-->
+        <a class="header__contact-us" href="#">Contact us</a>
+      <!--</div>-->
+    </div>
   </header>
+
+
   <main>
     <section class="promo">
-      <img src="img/logo-thrivetalk.png" alt="логотип Thrivetalk">
-      <h2 class="promo__title">Helping you thrive in all areas of life</h2>
-      <p class="promo__paragraph">Our highly talented therapists can help you with a range of issues including relationships, sex, PTSD, depression, social anxiety, or even just caring for yourself more.</p>
-      <!--<div class="promo__block">-->
+      <div class="container promo__wrap">
+        <img class="promo__img" src="img/logo-thrivetalk.png" alt="логотип Thrivetalk">
+        <h2 class="promo__title">Helping you thrive in all areas of life</h2>
+        <p class="promo__paragraph">Our highly talented therapists can help you   with a range of issues including relationships, sex, PTSD, depression,    social anxiety, or even just caring for yourself more.</p>
+        <!--<div class="promo__block">-->
         <a class="promo__who-am-i" href="#">Who am i</a>
-      <!--</div>-->
-      <a class="promo__what-do-i-do" href="#">What do i do</a>
+        <!--</div>-->
+        <a class="promo__what-do-i-do" href="#">What do i do</a>
+    </div>
     </section>
+
+
     <section class="why-thrive">
-      <h2 class="why-thrive__title">Why Thrive?</h2>
-      <p><span class="why-thrive__improve-span">Want to improve your well-being from the comfort of your own couch? Are you having trouble finding the right therapist?</span><span class="why-thrive__licensed-therapists-span"> Here at ThriveTalk, our licensed therapists provide the same quality care you would get in office from anywhere you can access your laptop or mobile phone. Become your best self with ThriveTalk.  Start therapy now with a licensed therapist!</span></p>
+      <div class="container why-thrive__wrap">
+        <h2 class="why-thrive__title">Why Thrive?</h2>
+        <p class="why-thrive__paragraph"><span class="why-thrive__improve-span">Want to improve your well-being from the comfort of your own couch? Are you having trouble finding the right therapist?</span><span class="why-thrive__licensed-therapists-span"> Here at ThriveTalk, our licensed therapists provide the same quality care you would get in office from anywhere you can access your laptop or mobile phone. Become your best self with ThriveTalk.  Start therapy now with a licensed therapist!</span></p>
+      </div>
     </section>
+
+
     <section class="help">
-      <h2 class="help__about-us">About us</h2>
-      <p class="help__paragraph">We want to help you thrive! Whether you are just looking for someone to talk to, or are struggling with a mental wellness issue we're here to help.  Our highly talented therapists can help you with a range of issues including relationships, sex, PTSD, depression, social anxiety, or even just caring for yourself more.</p>
+      <div class="help__wrap">
+        <h2 class="help__about-us">About us</h2>
+        <p class="help__paragraph">We want to help you thrive! Whether you are just looking for someone to talk to, or are struggling with a mental wellness issue we're here to help.  Our highly talented therapists can help you with a range of issues including relationships, sex, PTSD, depression, social anxiety, or even just caring for yourself more.</p>
+      </div>
     </section>
+
+
     <section class="we-can-help-you-with">
       <h2 class="we-can-help-you-with__title">We can help you with</h2>
       <ul class="we-can-help-you-with__list">
-        <li>
+        <li class="we-can-help-you-with__item">
           <a class="we-can-help-you-with__weight-lifting" href="#">Weight Lifting</a>
         </li>
-        <li>
+        <li class="we-can-help-you-with__item">
           <a class="we-can-help-you-with__running-and-spinning" href="#">Running  & Spinning</a>
         </li>
-        <li>
+        <li class="we-can-help-you-with__item">
           <a class="we-can-help-you-with__pumping-iron" href="#">Pumping Iron</a>
         </li>
-        <li>
+        <li class="we-can-help-you-with__item">
           <a class="we-can-help-you-with__pumping-iron2" href="#">Pumping Iron</a>
         </li>
       </ul>
     </section>
+
+
     <section class="services">
       <ul class="services__list">
-        <li>
+        <li class="services__item">
           <a class="services__physical-health" href="#">Physical Health</a>
         </li>
-        <li>
+        <li class="services__item">
           <a class="services__mental-health" href="#">Mental Health</a>
         </li>
-        <li>
+        <li class="services__item">
           <a class="services__nutrition" href="#">Nutrition</a>
         </li>
-        <li>
+        <li class="services__item">
           <a class="services__gymnastics" href="#">Gymnastics</a>
         </li>
-        <li>
+        <li class="services__item">
           <a class="services__crossfit" href="#">Crossfit</a>
         </li>
-        <li>
+        <li class="services__item">
           <a class="services__aerobics" href="#">Aerobics</a>
         </li>
       </ul>
     </section>
+
+
     <section class="results">
       <ul class="results__list">
-        <li>
+        <li class="results__item">
           <h3>Nutritional Plans</h3>
           <p>Nutritional Facts on some shitty things that you don’t care about and even we don’t , I need to replace this copy.</p>
         </li>
-        <li>
+        <li class="results__item">
           <h3>Weight Loss</h3>
           <p>Nutritional Facts on some shitty things that you don’t care about and even we don’t , I need to replace this copy.</p>
         </li>
-        <li>
+        <li class="results__item">
           <h3>Mental Peace</h3>
           <p>Nutritional Facts on some shitty things that you don’t care about and even we don’t , I need to replace this copy.</p>
         </li>
-        <li>
+        <li class="results__item">
           <h3>Home Training</h3>
           <p>Nutritional Facts on some shitty things that you don’t care about and even we don’t , I need to replace this copy.</p>
         </li>
-        <li>
+        <li class="results__item">
           <h3>Work/Life Balance</h3>
           <p>Nutritional Facts on some shitty things that you don’t care about and even we don’t , I need to replace this copy.</p>
         </li>
-        <li>
+        <li class="results__item">
           <h3>Cardio</h3>
           <p>Nutritional Facts on some shitty things that you don’t care about and even we don’t , I need to replace this copy.</p>
         </li>
       </ul>
     </section>
-    <section class="you-should-also-know">
-      <h2 class="you-should-also-know__title">You should also know</h2>
-      <p class="you-should-also-know__paragraph">MDD affects more than 16.1 million American adults, or about 6.7%of the U.S. population age 18 and older in a given year. We at <span class="you-should-also-know__span">ThriveTalk</span> can help you.</p>
-      <a class="you-should-also-know__link" href="#">Get help now</a>
-    </section>
-    <section class="contact-us">
-      <h2 class="contact-us__title">Contact us</h2>
-      <p class="contact-us__ready-set-smile">Ready. Set. Smile</p>
-      <p class="contact-us__free-online-assessment">Take the free online assessment to see if you are a candidate and get started on your journey.</p>
-      <a class="contact-us__link" href="#">Get help now</a>
-    </section>
-    <section class="contacts">
-      <ul class="contacts__list">
-        <li>
-          <h3>SOME INFO</h3>
-          <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula.</p>
-        </li>
-        <li>
-          <h3>Enfold health</h3>
-          <p>Main Street 1, Olcott
-            Buffalo, United States
 
-            +555 283 784 333
-            <span>office@enfold-health.com</span></p>
-        </li>
-        <li>
-          <h3>Office hours</h3>
-          <p>Mo-Fr: 8:00-19:00
-            Sa: 8:00-14:00
+
+    <section class="you-should-also-know">
+      <div class="container you-should-also-know__wrap">
+        <h2 class="you-should-also-know__title">You should also know</h2>
+        <p class="you-should-also-know__paragraph">MDD affects more than 16.1   million American adults, or about 6.7%of the U.S. population age 18 and older in a given year. We at <span    class="you-should-also-know__span">ThriveTalk</span> can help you.</p>
+        <a class="you-should-also-know__link" href="#">Get help now</a>
+      </div>
+    </section>
+
+
+    <section class="contact-us">
+      <div class="container contact-us__wrap">
+        <h2 class="contact-us__title">Contact us</h2>
+        <p class="contact-us__ready-set-smile">Ready. Set. Smile</p>
+        <p class="contact-us__free-online-assessment">Take the free online assessment to see if you are a candidate and get started on your journey.</p>
+        <a class="contact-us__link" href="#">Get help now</a>
+      </div>
+    </section>
+
+
+    <section class="contacts">
+      <div class="container contacts__wrap">
+        <ul class="contacts__list">
+          <li class="contacts__some-info">
+           <h3 class="contacts__title">SOME INFO</h3>
+            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula.</p>
+          </li>
+          <li class="contacts__enfold-health">
+            <h3 class="contacts__title">Enfold health</h3>
+            <p>Main Street 1, Olcott
+            Buffalo, United States <br><br>
+
+            +555 283 784 333 <br>
+              <span>office@enfold-health.com</span></p>
+          </li>
+          <li class="contacts__office-hours">
+            <h3 class="contacts__title">Office hours</h3>
+            <p>Mo-Fr: 8:00-19:00 <br>
+            Sa: 8:00-14:00 <br>
             Su: closed</p>
-        </li>
-      </ul>
+          </li>
+        </ul>
+      </div>
     </section>
   </main>
+
+
   <footer class="footer">
-    <p class="footer__paragraph"> Copyright - ThriveTalk  2017</p>
+    <div class="container footer__wrap">
+      <p class="footer__paragraph"> Copyright - ThriveTalk  2017</p>
+    </div>
   </footer>
+
+
 </body>
 </html>
